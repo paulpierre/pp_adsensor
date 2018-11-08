@@ -62,17 +62,6 @@ exit('<pre><h1>Data1:</h1>'. print_r($data,true). '<pre></pre><h1>is_verified:</
 
 */
 
-/** ===========
- *  URL MAPPING
- *  ===========
- *  Supported URLS:
- *      - http://cdn.adsensor/sdk/ (Outputs the javascript for tracker)
- *      - http://cdn.adsensor/banner/
- *          1. Filters resources for turning cookie stuffing on/off
- *          2. Displays banner preview for advertiser
- *          3. Generates banner code
- *
- */
 
 if(isset($argv[1])) $q = explode('/',$argv[1]);
     else $q = explode('/',$_SERVER['REQUEST_URI']);

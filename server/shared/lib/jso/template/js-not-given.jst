@@ -1,0 +1,8 @@
+alert("WiseLoop JavaScript Obfuscator Message\n\n" +
+    "No JavaScript source was given.\n" +
+    "Please use one of the following methods to specify a valid JavaScript source code:\n" +
+    "- specify a repository name together with a JavaScript file like this: jso.php?rjs=the-repository-name/the-javascript-file.js\n" +
+    "- specify just a JavaScript file that will be loaded from the '{REPOSITORYNAME}' repository, but make sure that the this repository has a directory path that contains your JavaScript file: jso.php?js=the-javascript-file.js\n" +
+    "- specify an absolute URL or file path to a JavaScript file but make sure it is valid and readable: jso.php?js=http://a/path/to/the-javascript-file.js\n" +
+    "- just throw some actual JavaScript code (this method should be better used via POST) like this: jso.php?js=alert('abc'); \n" +
+    "The '{REPOSITORYNAME}' repository configuration: {REPOSITORY}");

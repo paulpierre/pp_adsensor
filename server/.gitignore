@@ -1,0 +1,6 @@
+shared/data/GeoIP2-City.mmdb
+shared/data/GeoIPOrg.dat
+.DS_Store
+track/tmp/
+shared/data/GeoIP2-ISP.mmdb
+shared/data/GeoIPDomain.dat
